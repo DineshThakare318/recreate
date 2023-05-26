@@ -11,6 +11,9 @@ export default function Navbar() {
                     <Link className='eachnav' href="/Contact">Contact</Link>
                     <Link className='eachnav' href="/About">About</Link>
                     <Link className='eachnav' href="/Dinesh">Products</Link>
+                    <Link className='eachnav' href="/api/products">Products345</Link>
+
+
                 </div>
             </nav>
         </div>
