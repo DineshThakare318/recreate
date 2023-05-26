@@ -14,9 +14,9 @@ import React from 'react'
 import './PProducts.css'
 export default async function page() {
     const data = await fetchAllProducts()
-    // data.data.map((ele: any) => {
-    //     console.log("all products", ele.productName)
-    // })
+    data.data.map((ele: any) => {
+        console.log("all products", ele.productName)
+    })
     return (
         <div className="products-outer">
             {data.data.map((ele: any, index: number) => (
