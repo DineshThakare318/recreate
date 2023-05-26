@@ -1,0 +1,9 @@
+.products-outer {
+    text-align: center;
+}
+
+.products-inner {
+    display: inline-block;
+    padding: 20px 30px;
+
+}

@@ -1,0 +1,22 @@
+.navbar-container {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: aqua;
+    width: 400px;
+    margin-left: 520px;
+    margin-top: 20px;
+}
+
+.navbar-container-inside {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.eachnav {
+    padding: 10px;
+}
+
+.inputsearch {
+    width: 10px;
+}
